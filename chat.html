@@ -10,7 +10,7 @@
         ></script>
         <title>Chat | Kakao Clon</title>
     </head>
-    <body>
+    <body class="chats__body">
         <div class="status-bar">
             <div class="status-bar__column">
                 <span class="status-bar__clock">13:54</span>
@@ -41,7 +41,7 @@
                 </span>
             </div>
         </header>
-        <main class="chat">
+        <main class="chat-screen">
             <ul class="chat__messages">
                 <span class="chat__timestamp">Friday, January 11, 2020</span>
                 <li class="incoming-message message">
@@ -50,19 +50,40 @@
                         alt="m-avatar message-avatar"
                     />
                     <div class="message__content">
-                        <span class="message_authour">Key</span>
-                        <div class="message__bubble">
+                        <span class="message__bubble">
                             Congratulation
-                        </div>
+                        </span>
+                        <span class="message__author">Key</span>
                     </div>
                     <span class="message__timestamp"></span>
                 </li>
-                <li class="incoming-message message">
+                <li class="sent-message message">
                     <div class="message__content">
                         <span class="message__timestamp"></span>
-                        <div class="message__bubble">
+                        <span class="message__bubble">
                             Thank you very much!!^^
-                        </div>
+                        </span>
+                    </div>
+                </li>
+                <li class="incoming-message message">
+                    <img
+                        src="./images/avatar.jpg"
+                        alt="m-avatar message-avatar"
+                    />
+                    <div class="message__content">
+                        <span class="message__bubble">
+                            Congratulation
+                        </span>
+                        <span class="message__author">Key</span>
+                    </div>
+                    <span class="message__timestamp"></span>
+                </li>
+                <li class="sent-message message">
+                    <div class="message__content">
+                        <span class="message__timestamp"></span>
+                        <span class="message__bubble">
+                            Thank you very much!!^^
+                        </span>
                     </div>
                 </li>
             </ul>
